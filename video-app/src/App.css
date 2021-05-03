@@ -1,0 +1,24 @@
+header, h1 {
+    font-family: 'Cairo', sans-serif;
+    color: pink;
+    font-size: 4rem;
+    font-weight: revert;
+    padding-top: 2rem;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(194, 233, 221, 0.5) 1%, rgba(104, 119, 132, 0.5) 100%), linear-gradient(-45deg, #494d71 0%, rgba(217, 230, 185, 0.5) 80%);
+    height: 100%;
+}
+
+
+.container {
+    margin-top: 6rem;
+}
+
+.video-1, .video-2 {
+    border-radius: 5%;
+
+
+}
+

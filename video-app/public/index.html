@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -24,11 +29,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Video App</title>
   </head>
+  
+  <header>
+    <h1 class="text-center">Play and Pause</h1>
+  </header>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
     
+    <div id="root"></div>
+
+    <!-- Videos container -->
+    <div class="container">
+    <div class="d-flex justify-content-between">
+      <div >
+      <video class="video-1"  muted="true" controls="true">
+      <source src="https://rocani-testproject.s3.eu-central-1.amazonaws.com/video-loop-1.mp4" type="video/mp4" />
+    </div>
+  
+    <div >
+      <video class="video-2"  muted="true" controls="true">
+      <source src="https://rocani-testproject.s3.eu-central-1.amazonaws.com/video-loop-2.mp4" type="video/mp4" />
+    </div>
+  </div>
+</div>
   </body>
 </html>
