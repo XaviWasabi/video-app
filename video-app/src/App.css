@@ -16,9 +16,18 @@ body {
     margin-top: 6rem;
 }
 
-.video-1, .video-2 {
+.videos {
     border-radius: 5%;
-
-
+    height: 400px;
+    width: 400px;
+    /* visibility: hidden; */
 }
 
+.overlay {
+    border: solid black 1px;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-color: blue;
+    z-index: 1;
+}
