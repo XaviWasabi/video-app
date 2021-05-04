@@ -12,11 +12,12 @@ const Video = (props) => {
       {showOverlay ? (
         <div className="overlay"></div>
       ) : (
-        <div className="video">
-          <video muted="false" controls="true" autoPlay>
-            <source src={props.videoUrl} type="video/mp4" />
-          </video>
-        </div>
+          
+            <div className="video">
+              <video  controls="true" autoPlay>
+                <source src={props.videoUrl} type="video/mp4" />
+              </video>
+            </div>  
       )}
     </div>
   );

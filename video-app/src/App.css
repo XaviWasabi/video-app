@@ -1,3 +1,11 @@
+/* Variables */
+
+
+
+
+
+
+
 header, h1 {
     font-family: 'Cairo', sans-serif;
     color: pink;
@@ -17,20 +25,25 @@ body {
 
 .container {
     margin-top: 6rem;
+    display: flex; 
 }
 
 .videos {
     border-radius: 5%;
     height: 400px;
     width: 400px;
-    /* visibility: hidden; */
 }
 
 .overlay {
-    border: solid black 1px;
+    border: solid rgb(193, 197, 130) 3px;
     height: 500px;
     width: 500px;
     position: absolute;
-    background-color: blue;
+    background: radial-gradient(circle, rgb(255, 0, 242) 40px,rgb(8, 219, 219) 70px, rgb(219, 223, 169) 100px);
     z-index: 1;
+    border-radius: 10px;
+}
+
+.overlay:hover {
+    border: solid 3px rgb(8, 219, 219);
 }
