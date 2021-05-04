@@ -8,9 +8,10 @@ Simple app with two elements. When you click on an element automatically the ove
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* JavaScript
+* React
+* HTML5
+* CSS3
 	
 ## Setup
 To run this project, install it locally using npm:
@@ -26,9 +27,3 @@ $ npm start
 
 
 
-
-##Technologies
-- JavaScript
-- React
-- HTML5
-- SASS
